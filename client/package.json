@@ -1,6 +1,6 @@
 {
   "name": "client",
-   "proxy":"https://mystoreserver.vercel.app/",
+  "proxy": "https://mystoreserver.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,11 +14,14 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2"
+  },
 "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
