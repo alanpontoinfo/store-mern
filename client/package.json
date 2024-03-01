@@ -14,9 +14,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0-placeholder-for-preset-env.2"
-  },
+ 
 "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
