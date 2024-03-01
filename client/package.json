@@ -1,5 +1,6 @@
 {
   "name": "client",
+   "proxy":"https://mystoreserver.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,6 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://mystoreserver.vercel.app/"
+  }
+ 
 }
