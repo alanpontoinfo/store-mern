@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/proxy/:match*",
-      "destination": "https://mystoreserver.vercel.app/:match*"
-    }
-  ]
-}
